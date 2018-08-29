@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Andrey Sorokin</title>
+</head>
+<body>
+  <div class="wrap">
+    <div class="photo"></div>
+    <p>Frontend developer (React, VueJS)</p>
+    <p>Mobile developer (React Native)</p>
+    <div class="buttons">
+      <a class="button telegram" href="http://t.me/the_cursedsoul">Telegram</a>
+      <a class="button email" href="mailto:sorokin0andrey@gmail.com">Email</a>
+    </div>
+  </div>
+</body>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100vh;
+  }
+  body {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background: #fafafa;
+    color: #333;
+    padding: 16px;
+    margin: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  p {
+    margin: 8px 0
+  }
+
+  .photo {
+    display: inline-block;
+    border-radius: 500px;
+    width: 128px;
+    height: 128px;
+    background-image: url('photo.jpg');
+    background-size: cover;
+    margin-bottom: 10px;
+  }  
+
+  .button {
+    display: inline-block;
+    padding: 16px 25px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin: 5px;
+  }
+  .button:hover {
+    box-shadow: 0 7px 10px rgba(0,0,0,0.15), 0 5px 5px rgba(0,0,0,0.12);
+  }
+  .telegram {
+    background: rgb(0, 122, 255);
+  }
+  .email {
+    background: rgb(50, 50, 50);
+  }
+  .wrap {
+    text-align: center;
+  }
+</style>
+</html>
