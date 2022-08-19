@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.account {
+  padding: 15px;
+  max-width: 100%;
+  position: relative;
+}
+
+.cell {
+  margin-bottom: 8px;
+  cursor: pointer;
+  color: #5f6fcf;
+}
+
+.cell span {
+  color: #000;
+}
+
+pre {
+  cursor: pointer;
+}
+
+.account_number {
+  position: absolute;
+  top: 15px;
+  left: -5px;
+}
