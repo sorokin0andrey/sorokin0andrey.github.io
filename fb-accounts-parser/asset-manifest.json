@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fb-accounts-parser/static/css/main.e6c13ad2.css",
-    "main.js": "/fb-accounts-parser/static/js/main.9a8e9fee.js",
+    "main.js": "/fb-accounts-parser/static/js/main.e92e18fa.js",
     "index.html": "/fb-accounts-parser/index.html",
     "main.e6c13ad2.css.map": "/fb-accounts-parser/static/css/main.e6c13ad2.css.map",
-    "main.9a8e9fee.js.map": "/fb-accounts-parser/static/js/main.9a8e9fee.js.map"
+    "main.e92e18fa.js.map": "/fb-accounts-parser/static/js/main.e92e18fa.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.9a8e9fee.js"
+    "static/js/main.e92e18fa.js"
   ]
 }
